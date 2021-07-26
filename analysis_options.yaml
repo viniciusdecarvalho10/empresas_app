@@ -1,0 +1,13 @@
+include: package:effective_dart/analysis_options.yaml
+
+linter:
+  rules:
+    public_member_api_docs: false
+    constant_identifier_names: false
+    lines_longer_than_80_chars: false
+    type_annotate_public_apis: false
+    use_setters_to_change_properties: false
+    one_member_abstracts: false
+    avoid_types_on_closure_parameters: false
+    omit_local_variable_types: false
+    unnecessary_this: false
